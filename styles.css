@@ -1,0 +1,16 @@
+.bar {
+  /* We'll override this later */
+    background-color: teal;
+    margin-right: 2px;
+}
+
+h1{
+	font-family: Georgia;
+	font-size: 6.5em;
+	margin-bottom: 36px;
+}
+
+p{
+	font-family: Georgia;
+	font-size: 22px;
+}

@@ -1,0 +1,17 @@
+{
+  "name": "athlete-recruitment-data",
+  "version": "1.0.0",
+  "description": "visualization for UVA athlete hometowns",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "leo dominguez",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+    "d3": "^4.3.0",
+    "express": "^4.14.0",
+    "morgan": "^1.7.0"
+  }
+}

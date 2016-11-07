@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Athlete Recruitment Data</title>
+        <script type="text/javascript" src="/scripts/d3/build/d3.js"></script>
+        <link rel="stylesheet" type="text/css" href="/scripts/bootstrap/dist/css/bootstrap.css"></link>
+        <link rel="stylesheet" type="text/css" href="/styles.css"></link>
+    </head>
+    <body>
+     <script type="text/javascript" src="/js/vis.js"></script>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-10 col-md-offset-1">
+                <h1>Running the numbers: UVa Athletics</h1>
+                    <p>
+                        Max built a handy dandy scraper to grab all the current roster information about all the UVa athletics teams. First things first, ran a few helper functions in D3 to section off athletes by sport and by origin. Those are the first couple of graphs we have here. First off, there is wild disparity in domestic versus international athletes by sport. Baseball, Football, Golf, Women's Soccer, and Wrestling all clock in with 100% American athletes. Our low bar here is men's tennis which is skewed pretty heavily due to its small roster size.
+                    </p>
+                </div>
+                <div class="col-md-8 col-md-offset-2" id="domestic">
+                    <h3>Percentage of Domestic Athletes by Sport</h3>
+                    <script type="text/javascript" src="/js/domestic.js"></script>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-10 col-md-offset-1">
+                    <p>
+                        HOWEVER, once we shift over to Virginian vs. NOT  Virginian, the numbers grow pretty stark. Football is the only sport with a simple majority of virginians even though the student body as a whole is 65% in-state.
+                    </p>
+                </div>
+                <div class="col-md-8 col-md-offset-2" id="virginian">
+                <h3>Percentage of Virginian Athletes by Sport</h3>
+                    <script type="text/javascript" src="/js/virginian.js"></script>
+                </div>
+            </div>
+        </div>
+    </body>
+</html> 
